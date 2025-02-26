@@ -219,7 +219,7 @@ function App() {
             <video 
             src="/video1.mp4"
             className="w-64 max-w-md h-auto rounded-lg shadow-xl"
-            autoPlay loop playsInline/>
+            autoPlay loop muted playsInline/>
           </div>
           <div className="flex-1 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-green-800">
