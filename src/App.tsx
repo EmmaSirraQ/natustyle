@@ -88,40 +88,23 @@ function App() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-green-800 mb-16">
             Nuestros Servicios
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard 
               icon={<Leaf className="w-8 h-8 text-green-600" />}
-              title="Productos Artesanales"
-              description="Cultivados con amor y cuidado por el medio ambiente"
+              title="Venta de Productos Artesanales"
+              description="A través de tienda física, ecommerce y plataformas de artesanía."
             />
             <FeatureCard 
               icon={<Sun className="w-8 h-8 text-green-600" />}
-              title="Energía Solar"
-              description="Soluciones sostenibles para tu hogar"
+              title="Venta al por Mayor"
+              description="Ofrecemos productos a tiendas minoristas o mayoristas."
             />
             <FeatureCard 
               icon={<Droplets className="w-8 h-8 text-green-600" />}
-              title="Agua Pura"
-              description="Sistemas de filtración natural"
-            />
-            <FeatureCard 
-              icon={<Wind className="w-8 h-8 text-green-600" />}
-              title="Aire Limpio"
-              description="Purificación mediante plantas naturales"
+              title="Personalización de Productos"
+              description="Nuestros clientes pueden personalizar sus productos con opciones de colores, materiales, diseños o grabados."
             />
           </div>
-        </div>
-      </section>
-
-      {/* Vision Section */}
-      <section id="vision" className="py-20 px-4 bg-green-50">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-8">Nuestra Visión</h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Aspiramos a ser líderes en la creación de productos artesanales sostenibles, 
-            fusionando la tradición con la innovación, mientras construimos un futuro 
-            más verde y equitativo para nuestras comunidades artesanales y el planeta.
-          </p>
         </div>
       </section>
 
@@ -133,19 +116,19 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ProductCard
-              image="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80"
-              title="Bolsos Artesanales"
+              image="/bolso.jpeg"
+              title="Bolsos"
               description="Creados con materiales sostenibles y técnicas tradicionales"
             />
             <ProductCard
-              image="https://images.unsplash.com/photo-1605618826115-fb9e775cf6a9?auto=format&fit=crop&q=80"
-              title="Accesorios Eco-friendly"
-              description="Complementos que respetan el medio ambiente"
+              image="/mochila.webp"
+              title="Mochilas"
+              description="Comodidad, estilo y tradición en un solo accesorio"
             />
             <ProductCard
-              image="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80"
-              title="Colección Sustentable"
-              description="Diseños únicos con materiales reciclados"
+              image="/sombrero.jpeg"
+              title="Sombreros"
+              description="Elegancia y protección con un toque artesanal"
             />
           </div>
         </div>
@@ -160,19 +143,25 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ValorCard
               title="Respeto"
-              description="Fomentamos un ambiente de trabajo donde se valora la opinión y el esfuerzo de cada colaborador, respetando las tradiciones artesanales y asegurando precios justos para los artesanos."
+              description="Fomentamos un ambiente de trabajo donde se valora la opinión y el esfuerzo de cada 
+              colaborador, respetando las tradiciones artesanales y asegurando precios justos para los artesanos."
             />
             <ValorCard
               title="Tolerancia"
-              description="Aceptamos y valoramos la diversidad de ideas, culturas y formas de trabajo dentro de la empresa, siendo inclusivos en la contratación y en la colaboración con diferentes comunidades artesanales."
+              description="Aceptamos y valoramos la diversidad de ideas, culturas y formas de trabajo dentro 
+              de la empresa, siendo inclusivos en la contratación y en la colaboración con diferentes comunidades 
+              artesanales."
             />
             <ValorCard
               title="Responsabilidad"
-              description="Cumplimos con los compromisos con clientes, proveedores y colaboradores, garantizando productos de calidad y manteniendo una gestión eficiente de recursos."
+              description="Cumplimos con los compromisos con clientes, proveedores y colaboradores, garantizando 
+              productos de calidad y manteniendo una gestión eficiente de recursos."
             />
             <ValorCard
               title="Responsabilidad Ambiental"
-              description="Utilizamos materiales sostenibles o reciclados en la fabricación, implementando procesos que minimizan el impacto ambiental y reducen desechos."
+              description="Utilizamos materiales sostenibles o reciclados en la fabricación de los bolsos, para 
+              así implementar procesos de producción que minimicen el impacto ambiental, reduciendo desechos y 
+              consumo energético."
             />
           </div>
         </div>
@@ -186,7 +175,7 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?auto=format&fit=crop&q=80",
+              "sombreroG.jpeg",
               "https://images.unsplash.com/photo-1462927114214-6956d2fddd4e?auto=format&fit=crop&q=80",
               "https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?auto=format&fit=crop&q=80",
               "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80",
@@ -209,6 +198,15 @@ function App() {
         </div>
       </section>
 
+      {/* Vision Section */}
+      <section id="vision" className="py-20 px-4 bg-green-50">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-8">Nuestra Visión</h2>
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          Ser reconocido en el mercado a nivel nacional en el 2026 por nuestra comercialización y fabricación de nuestros productos ofreciendo una calidad excepcional y sostenible respaldados por una identidad de marca sólida y coherente.
+          </p>
+        </div>
+      </section>
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-green-50">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
@@ -224,8 +222,7 @@ function App() {
               Nuestra Misión
             </h2>
             <p className="text-lg text-gray-700">
-              En Natu Style, nos dedicamos a proporcionar soluciones sostenibles que armonizan con la naturaleza. 
-              Creemos en un futuro donde la tecnología y la naturaleza coexisten en perfecto equilibrio.
+            En Natu style somos una empresa dedicada a la fabricación y comercialización de productos artesanales con materiales reciclables, priorizando la conservación ambiental y responsabilidad social. En Natu style fomentamos la innovación para satisfacer las necesidades del consumidor y tener así un impacto positivo en la sociedad.
             </p>
             <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full text-lg transition-all transform hover:scale-105">
               Conoce nuestra historia
