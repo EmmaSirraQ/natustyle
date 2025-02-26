@@ -39,7 +39,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
             {/* Reemplazamos el texto por el logo */}
-            <img src="/public/Logo.png" alt="Logo" className="h-16 w-auto rounded-full"/>
+            <img src="/public/Logo.png" alt="Logo img" className="h-16 w-auto rounded-full"/>
             {/* Mobile menu button */}
             <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}> {isMenuOpen ? <X /> : <Menu />}</button>
             {/* Desktop menu */}
