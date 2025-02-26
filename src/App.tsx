@@ -235,16 +235,16 @@ function App() {
       <footer className="bg-green-900 text-green-50 py-12">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Natura Verde</h3>
+            <h3 className="text-xl font-bold mb-4">Natu Style</h3>
             <p className="text-green-200">
-              Comprometidos con un futuro más verde y sostenible.
+            Que Tu Estilo Resuene en todo el Planeta
             </p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contacto</h3>
             <p className="text-green-200">
-              Email: info@naturaverde.com<br />
-              Tel: (123) 456-7890
+              Email: Yaritza_mejia@soy.sena.edu.co<br />
+              Tel: (+57) 302 2016637
             </p>
           </div>
           <div>
