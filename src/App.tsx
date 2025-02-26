@@ -210,12 +210,16 @@ function App() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-green-50">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1">
-            <img 
+          <div className="flex-1 ml-10">
+            {/*<img 
               src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&q=80"
               alt="Naturaleza"
               className="rounded-lg shadow-xl"
-            />
+            />*/}
+            <video 
+            src="/video1.mp4"
+            className="w-64 max-w-md h-auto rounded-lg shadow-xl"
+            autoPlay loop muted playsInline/>
           </div>
           <div className="flex-1 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-green-800">
