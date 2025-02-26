@@ -71,7 +71,7 @@ function App() {
         />
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Natu style</h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Natu Style</h1>
           <p className="text-xl md:text-2xl text-green-50 mb-8">Que tu estilo resuene en todo el planeta</p>
           <button 
             onClick={() => scrollToSection('servicios')}
@@ -219,7 +219,7 @@ function App() {
             <video 
             src="/video1.mp4"
             className="w-64 max-w-md h-auto rounded-lg shadow-xl"
-            autoPlay loop muted playsInline/>
+            autoPlay loop playsInline/>
           </div>
           <div className="flex-1 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-green-800">
