@@ -199,7 +199,7 @@ function App() {
       </section>
 
       {/* Vision Section */}
-      <section id="vision" className="py-20 px-4 bg-green-50">
+      <section id="visión" className="py-20 px-4 bg-green-50">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-8">Nuestra Visión</h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
