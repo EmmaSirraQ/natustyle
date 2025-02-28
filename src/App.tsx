@@ -44,7 +44,7 @@ function App() {
             <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}> {isMenuOpen ? <X /> : <Menu />}</button>
             {/* Desktop menu */}
             <div className="hidden md:flex space-x-6">
-              {['inicio', 'servicios', 'vision', 'productos', 'valores', 'galeria'].map((item) => (
+              {['inicio', 'servicios', 'productos', 'valores', 'galeria', 'visión'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -176,11 +176,11 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               "sombreroG.jpeg",
-              "https://images.unsplash.com/photo-1462927114214-6956d2fddd4e?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?auto=format&fit=crop&q=80",
+              "bolso1.jpeg",
+              "bolso2.jpeg",
               "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80",
               "https://images.unsplash.com/photo-1483794344563-d27a8d18014e?auto=format&fit=crop&q=80",
-              "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80"
+              "bolso3.jpeg"
             ].map((img, index) => (
               <div 
                 key={index}
@@ -219,7 +219,7 @@ function App() {
             <video 
             src="/video1.mp4"
             className="w-64 max-w-md h-auto rounded-lg shadow-xl"
-            autoPlay loop muted playsInline/>
+            controls autoPlay loop muted playsInline/>
           </div>
           <div className="flex-1 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-green-800">
